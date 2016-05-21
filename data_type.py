@@ -5,3 +5,6 @@ b=(0xff==255)
 
 print "\n"
 print sum,cs,a,b
+print cs[-1]
+print cs[0:5]
+

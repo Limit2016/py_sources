@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from function import fac                            #其实就是把两个程序合在一起运行，不只是调用fac()一个函数
+#from function import fac                            #其实就是把两个程序合在一起运行，不只是调用fac()一个函数
+import function                                      #其实就是把两个程序合在一起运行，不只是调用fac()一个函数
 
 def sumerize ( x ):
     i = 1 ;
     result = 0
     while i<=x:
-        result = result + fac( i )
+        result = result + function.fac( i )
         i+=1
     return result
 
